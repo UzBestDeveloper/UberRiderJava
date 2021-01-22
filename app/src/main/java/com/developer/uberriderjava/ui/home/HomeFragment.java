@@ -15,7 +15,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
-
 import com.developer.uberriderjava.Common;
 import com.developer.uberriderjava.callbacks.IFirebaseDriverInfoListener;
 import com.developer.uberriderjava.callbacks.IFirebaseFailedListener;
@@ -29,13 +28,11 @@ import com.firebase.geofire.GeoQueryEventListener;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationCallback;
 import com.google.android.gms.location.LocationRequest;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
-
 import com.developer.uberriderjava.R;
 import com.google.android.gms.location.LocationResult;
 import com.google.android.gms.location.LocationServices;
@@ -60,13 +57,10 @@ import com.karumi.dexter.listener.PermissionDeniedResponse;
 import com.karumi.dexter.listener.PermissionGrantedResponse;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.single.PermissionListener;
-
 import java.io.IOException;
 import java.util.List;
 import java.util.Locale;
-
 import io.reactivex.Observable;
-import io.reactivex.Scheduler;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
 
@@ -103,7 +97,6 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback, IFireb
         init();
         return root;
     }
-
 
     private void init() {
 
@@ -281,7 +274,6 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback, IFireb
                 });
     }
 
-
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
@@ -341,7 +333,6 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback, IFireb
         }
 
     }
-
 
     @Override
     public void onDestroy() {

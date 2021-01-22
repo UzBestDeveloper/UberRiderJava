@@ -9,13 +9,10 @@ import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Build;
-
 import androidx.core.app.NotificationCompat;
-
 import com.developer.uberriderjava.models.DriverGeoModel;
 import com.developer.uberriderjava.models.RiderModel;
 import com.google.android.gms.maps.model.Marker;
-
 import java.util.HashMap;
 import java.util.HashSet;
 
@@ -71,7 +68,6 @@ public class Common {
             notificationManager.notify(id, notification);
         }
     }
-
 
     public static String buildName(String firstName, String lastName) {
         return firstName + " " + lastName;
