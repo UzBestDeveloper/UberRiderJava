@@ -19,5 +19,8 @@
 
     <string name="menu_sign_out">Sign out</string>
     <string name="title_activity_maps">Map</string>
+    <string name="location_permission_required">Location permission is required</string>
+    <string name="drivers_not_found">Drivers not found!</string>
+    <string name="driver_with_key_not_found">Not found driver with key</string>
 
 </resources>
